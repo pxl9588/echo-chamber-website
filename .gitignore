@@ -3,4 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+<<<<<<< HEAD
 Gemfile.lock
+=======
+>>>>>>> 614f5cfa8f136f55afc1f5be0d8007151505cdca
