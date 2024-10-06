@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import * as React from 'react';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -13,28 +14,16 @@ function App() {
       </p>
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <a
-          href="https://chromewebstore.google.com/detail/echo-chamber/ihleleinncbgegegpiegibkbfbggncah?authuser=1&hl=en"
-          style={{
-            backgroundColor: '#1c1fdd',
-            border: 'none',
-            color: 'white',
-            padding: '15px 32px',
-            textAlign: 'center',
-            textDecoration: 'none',
-            display: 'inline-block',
-            fontSize: '16px',
-          }}
-        >
+        <Button variant="contained" href="https://chromewebstore.google.com/detail/echo-chamber/ihleleinncbgegegpiegibkbfbggncah?authuser=1&hl=en">
           Get Echo Chamber
-        </a>
+        </Button>
       </div>
 
       <br />
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <img
-          src="/assets/echo-chamber-high-resolution-logo.png"
+          src="./echo-chamber-high-resolution-logo.png"
           alt="Echo Chamber logo"
           width="400"
           style={{ maxWidth: '75%' }}
